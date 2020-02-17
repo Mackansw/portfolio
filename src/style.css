@@ -26,19 +26,21 @@ a:hover {
     margin: auto; 
 }
 
-/* Navmenues Link style */
-nav {
-    font-size: 22px;
-    padding: 10px;
-    background-color: red;
-}
-
+/* Styles links in link menu */
 .navmen a{
     color: black;
 }
 
+/* Navmenues Link style */
+nav {
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(22,102,102);
+}
+
 h1 {
-    color: red;
+    color: rgb(22, 102, 102);
     font-family: 'Odibee Sans', cursive;
     font-size: 48px;
 }
@@ -46,5 +48,5 @@ h1 {
 footer{ 
     font-size: 20px;
     text-align: center;
-    background-color: red;
+    background-color: rgb(22, 102, 102);
 }
