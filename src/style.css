@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 a:link {
-    color: röd;
+    color: green;
     text-decoration: none;
 }
 
@@ -21,16 +21,20 @@ a:hover {
     font-size: 25px;
 }
 
-/* Navmenu style */
-.navmenu {
-    background-color: red;
+.container {
+    width: 960px;
+    margin: auto; 
 }
 
 /* Navmenues Link style */
-.navmenu a {
-    color: black;
-    padding: 14px 16px;
+nav {
     font-size: 22px;
+    padding: 10px;
+    background-color: red;
+}
+
+.navmen a{
+    color: black;
 }
 
 h1 {
