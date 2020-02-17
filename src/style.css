@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+a:link {
+    color: röd;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.about {
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+
+/* Navmenu style */
+.navmenu {
+    background-color: red;
+}
+
+/* Navmenues Link style */
+.navmenu a {
+    color: black;
+    padding: 14px 16px;
+    font-size: 22px;
+}
+
+h1 {
+    color: red;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 48px;
+}
+
+footer{ 
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+}
