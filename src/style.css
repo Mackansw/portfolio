@@ -21,7 +21,7 @@ a:hover {
     font-size: 25px;
 }
 
-.container {
+body {
     width: 960px;
     margin: auto; 
 }
