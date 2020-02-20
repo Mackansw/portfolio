@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
 
 a:link {
     color: green;
@@ -15,15 +16,55 @@ a:hover {
     text-decoration: underline;
 }
 
-.about {
-    color: black;
-    font-family: 'Indie Flower', cursive;
-    font-size: 25px;
-}
-
-body {
+body { 
     width: 960px;
     margin: auto; 
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin-top: 10px;
+    color: rgb(22, 102, 102);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.head {
+    color: rgb(22, 102, 102);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-defuse {
+    color: rgb(22,102,102);
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#name {
+    color: rgb(22, 102, 102);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+#about-border {
+    width: 370px;
+}
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{ 
+    color: rgb(22,102,102);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    text-align: center;
 }
 
 /* Styles links in link menu */
@@ -39,13 +80,8 @@ nav {
     background-color: rgb(22,102,102);
 }
 
-h1 {
-    color: rgb(22, 102, 102);
-    font-family: 'Odibee Sans', cursive;
-    font-size: 48px;
-}
-
 footer{ 
+    clear: both;
     font-size: 20px;
     text-align: center;
     background-color: rgb(22, 102, 102);
