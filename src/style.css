@@ -42,6 +42,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 #name {
     color: rgb(22, 102, 102);
     font-family: 'Montserrat', sans-serif;
@@ -55,8 +56,7 @@ h1 {
 
 .centerimage {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .about{ 
@@ -66,12 +66,10 @@ h1 {
     text-align: center;
 }
 
-/* Styles links in link menu */
 .navmen a{
     color: black;
 }
 
-/* Navmenues Link style */
 nav {
     padding: 10px;
     font-size: 22px;
@@ -80,8 +78,48 @@ nav {
 }
 
 footer{ 
-    clear: both;
     font-size: 20px;
     text-align: center;
     background-color: rgb(22, 102, 102);
+}
+
+form{
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.map{
+    margin-left: 80px;
+    display: inline-block;
+}
+
+textarea {
+    width: 400px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border:1px solid lightblue;
+    border-radius: 10px;
+}
+
+input[type = text]{
+    width: 400px;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border:1px solid lightblue;
+    border-radius: 10px;
+}
+
+input[type = submit] {
+    width: 400px;
+    background-color: rgb(19, 122, 182);
+    color: white;
+    border:1px solid lightblue;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+}
+
+iframe{
+    border-radius: 11px;
 }
