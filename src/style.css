@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
 
+body { 
+    width: 960px;
+    margin: auto; 
+    background-color: whitesmoke;
+}
+
 a:link {
     color: green;
     text-decoration: none;
@@ -15,17 +21,33 @@ a:hover {
     text-decoration: underline;
 }
 
-body { 
-    width: 960px;
-    margin: auto; 
-    background-color: whitesmoke;
+img{
+    display: block;
+    margin: auto;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(22,102,102);
+}
+
+.navmen a{
+    color: black;
+    font-size: 22px;
+    padding: 10px 5px;
+}
+
+.navmen a:hover{
+    text-decoration: none;
+    background-color: rgb(22, 90, 90);
 }
 
 h1 {
     margin-top: 10px;
     color: rgb(22, 102, 102);
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -35,61 +57,25 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.about-defuse {
+.about-project {
     color: rgb(22,102,102);
     font-size: 20px;
-    text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
-
-#name {
-    color: rgb(22, 102, 102);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
-    text-align: center;
-}
-
-#about-border {
-    width: 370px;
-}
-
-.centerimage {
-    display: block;
-    margin: auto;
-}
-
-.about{ 
+.about-me{ 
     color: rgb(22,102,102);
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;
     text-align: center;
 }
 
-.navmen a{
-    color: black;
-}
-
-nav {
-    padding: 10px;
-    font-size: 22px;
-    text-align: center;
-    background-color: rgb(22,102,102);
-}
-
-footer{ 
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(22, 102, 102);
+#about-me-border {
+    width: 350px;
 }
 
 form{
     margin-left: 15px;
-    display: inline-block;
-}
-
-.map{
-    margin-left: 80px;
     display: inline-block;
 }
 
@@ -105,9 +91,9 @@ input[type = text]{
     width: 400px;
     padding: 10px 10px;
     margin: 8px 0px;
-    box-sizing: border-box;
     border:1px solid lightblue;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 input[type = submit] {
@@ -120,6 +106,17 @@ input[type = submit] {
     margin: 4px 2px;
 }
 
-iframe{
-    border-radius: 11px;
+.map{
+    margin-left: 80px;
+    display: inline-block;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+footer{ 
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(22, 102, 102);
 }
